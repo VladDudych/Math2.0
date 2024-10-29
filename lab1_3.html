@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Лінійні алгоритми</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        "use strict";
+        alert("Ми будемо обчислювати площу повної поверхні конуса, заданого радіусом основи r і висотою h.");
+
+        let r = parseFloat(prompt("Введіть радіус основи конуса r", ""));
+        let h = parseFloat(prompt("Введіть висоту конуса h", ""));
+        let l = Math.sqrt(r * r + h * h); // Формула для твірної конуса
+        let s = Math.PI * r * (r + l);    // Формула для повної поверхні
+
+        alert("Повна поверхня конуса = " + s.toFixed(2));
+    </script>
+    <button class="task-button" onclick="window.location.href='index.html'">Повернутися на головну</button>
+</body>
+</html>

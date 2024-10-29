@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Робота з діалоговими вікнами</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        "use strict";
+        alert("Дарова");
+        const profession = prompt("Ким будеш?", "");
+        if (profession) {
+            const experience = prompt("Скільки ходок?", "");
+            alert("Та ти прям гангстер, " + profession);
+            alert("Ну тоді давай удачі, я за тебе слівце скажу");
+        } else {
+            alert("Ну і котися звідси");
+        }
+    </script>
+    <button class="task-button" onclick="window.location.href='index.html'">Повернутися на головну</button>
+</body>
+</html>

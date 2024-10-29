@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Обчислення арифметичних виразів</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        "use strict";
+        alert("Думали у нас тут зона? Ні-це школа. То просто діти із фізмату прийшли лякати тебе, зараз буду показувати як розв'язувати різні завдання");
+
+        alert("Зараз будемо розв'язувати вираз");
+        alert("Ми шукаємо значення виразу c = a / b, де:\n- a = x * x - 5 * x + 6\n- b = x * x - 4 * x + 4");
+
+        const x = parseInt(prompt("Введіть значення х", ""));
+        let a = x * x - 5 * x + 6;
+        let b = x * x - 4 * x + 4;
+        let c = a / b;
+        alert("c = " + c);
+    </script>
+    <button class="task-button" onclick="window.location.href='index.html'">Повернутися на головну</button>
+</body>
+</html>
